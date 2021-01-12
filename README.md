@@ -1,2 +1,3 @@
-# logdna_demo_meteorup
-Example of grabbing logs from a Meteor app deployed via Meteor Up.
+Meteor is a JavaScript framework that combines front and back ends in to one seamless developer experience.  LogDNA is an architecturally agnostic way to handle your logging needs via numerous routes from Docker dameonsets and our Kubernetes Agent to Syslog to code libraries.  Whatever way you’d like to handle logging, we’ve got you.
+
+To illustrate let’s say you are using the popular deployment tool Meteor Up to push to development, staging or production.  Using Meteor’s Todo Vue app deployed using Meteor Up, this repo shows how to send logs to LogDNA via Syslog.  By watching console.log and console.error, the Syslog Docker logging-driver is able to forward all logs securely to our servers for ingestion and parsing.  Allowing you to gain structure from the in-structured and insights into anything.
